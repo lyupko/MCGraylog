@@ -16,7 +16,8 @@
 @import Darwin.POSIX.netdb;
 @import Darwin.POSIX.sys.time;
 
-#import <zlib.h>
+@import zlib;
+@import Darwin.Mach.mach_time;
 
 void graylog_deinit(void);
 GraylogLogLevel graylog_log_level(void);
