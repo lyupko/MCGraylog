@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
   s.source_files = 'MCGraylog/MCGraylog/MCGraylog.h'
   s.public_header_files = 'MCGraylog/MCGraylog/MCGraylog.h'
-  s.library   = 'libz'
+  s.library   = 'z'
   s.requires_arc = true
   s.dependency 'CocoaLumberjack', '~> 2.0'
 end
