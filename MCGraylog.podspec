@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
                      "Jordan Valadas" => "jvaladas@marketcircle.com" }
   s.source       = { :git => "https://github.com/Marketcircle/MCGraylog.git", :tag => "1.0.0" }
   s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'MCGraylog/MCGraylog/MCGraylog.h'
   s.public_header_files = 'MCGraylog/MCGraylog/MCGraylog.h'
   s.library   = 'z'
